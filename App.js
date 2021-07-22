@@ -1,7 +1,6 @@
 var map = L.map('map').setView([20.593683,78.962883], 5);
 const tileUrl='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
-//attribution means copyright in map
-const attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Coded by coder\'s gyan with ❤️';
+//attribution means copyright in map 
 const tileLayer = L.tileLayer(tileUrl, { attribution });
 tileLayer.addTo(map);
 function generateList(){
